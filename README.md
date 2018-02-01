@@ -22,7 +22,7 @@ First launch local dev server so nightwatch can test against it:
 
 Launch a selenium server on your localhost:
 
-    -jar selenium-server-standalone-3.8.1.jar
+    java -jar selenium-server-standalone-3.8.1.jar
  (you can download the latest selenium at: http://selenium-release.storage.googleapis.com/index.html)
 
 Finally you can launch nigthwatch unit test with:
