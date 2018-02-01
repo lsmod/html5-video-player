@@ -42,4 +42,13 @@ describe("(Component) Player", () => {
   it("state: currentTime", () => {
     expect(player.state().currentTime).to.equal(0);
   });
+  it("currentTime 0", () => {
+    expect(player.find(".simple_video_player-current-time").text()).to.equal("0");
+  });
+  it("percentage 0", () => {
+    expect(player.find(".simple_video_player-percentage").text()).to.equal("0");
+  });
+  it("duration 0", () => {
+    expect(player.find(".simple_video_player-duration").text()).to.equal("0");
+  });
 });

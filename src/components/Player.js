@@ -73,8 +73,9 @@ class Player extends Component {
             style={progressBarStyle}
           >
           </div>
-          {this.state.percentage} % <br /> {this.state.currentTime}
-          / {this.state.duration} sec(s)<br />
+          <span className="simple_video_player-percentage">{this.state.percentage}</span> % <br />
+          <span className="simple_video_player-current-time">{this.state.currentTime}</span> /
+          <span className="simple_video_player-duration">{this.state.duration}</span> sec(s)<br />
         </div>
         <button
           className="simple_video_player-button"
