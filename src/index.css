@@ -3,3 +3,24 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+.app {
+  text-align: left;
+  margin: 10px;
+}
+
+.simple_video_player {
+  text-align: center;
+}
+
+.simple_video_player-progressbar_wrapper {
+  height: 50px;
+  width: 100%;
+}
+
+.simple_video_player-progressbar {
+  background-color: grey;
+  height: 50px;
+  position: absolute;
+  z-index: -1;
+}
