@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="end2end"
+    errors="1" failures="0" hostname="" id="" package="end2end" skipped="0"
+    tests="1" time="0.004000" timestamp="Thu, 01 Feb 2018 18:22:36 GMT">
+  
+    <testcase name="Test Simple Video Player" classname="end2end" time="0.004000" assertions="0">
+    </testcase>
+  
+
+  
+    <system-err>
+        Error while running [End2end / Test Simple Video Player]:
+
+  TypeError: client.url(...).waitForElementVisible(...).assert.visible(...).assert.visible(...).assert.visible(...).assert.visible(...).assert.visible(...).assert.containsText(...).assert.containsText(...).assert.containsText(...).assert.containsText(...).click(...).pause(...).assert.containsText(...).click(...).wait is not a function
+    at Object.Test Simple Video Player (/home/noob/realdev/html5-video-player/test/end2end.js:19:8)
+    at Module.call (/home/noob/realdev/html5-video-player/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /home/noob/realdev/html5-video-player/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/home/noob/realdev/html5-video-player/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/home/noob/realdev/html5-video-player/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/home/noob/realdev/html5-video-player/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /home/noob/realdev/html5-video-player/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/home/noob/realdev/html5-video-player/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/home/noob/realdev/html5-video-player/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="end2end"
+    errors="0" failures="0" hostname="" id="" package="end2end" skipped="0"
+    tests="1" time="70.30" timestamp="Thu, 01 Feb 2018 18:29:13 GMT">
+  
+    <testcase name="Test Simple Video Player" classname="end2end" time="70.30" assertions="17">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>
